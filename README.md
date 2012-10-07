@@ -10,4 +10,4 @@ Collection of computer science algorithms and data structures written in JavaScr
 * InsertionSort - [info](http://en.wikipedia.org/wiki/Insertion_sort) | [source](https://github.com/idosela/algorithms-in-javascript/blob/master/insertion-sort.js) 
 * SelectionSort - [info](http://en.wikipedia.org/wiki/Selection_sort) | [source](https://github.com/idosela/algorithms-in-javascript/blob/master/selection-sort.js) 
 
-[Run the sort performence test suite.](http://jsperf.com/sort-algorithms)
+[Run the sort performence test suite.](http://jsperf.com/sort-algorithms/13)
