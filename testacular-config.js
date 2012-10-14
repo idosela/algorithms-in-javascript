@@ -11,6 +11,7 @@ basePath = '';
 files = [
   JASMINE,
   JASMINE_ADAPTER,
+  'src/common.js',
   'src/*.js',
   'test/*.js'
 ];
