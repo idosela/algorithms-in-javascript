@@ -4,19 +4,13 @@
  */
 aij.mergeSort = function(items) {
     var merge = function(left, right) {
-        var result = [],
-            len = left.length + right.length,
-            li = 0,
-            ri = 0;
+        var result = [];
 
-        for (var i = 0; i < len; i++) {
-            if (li < left.length && left[li] <= (right[ri] || Number.MAX_VALUE)) {
-                result[i] = left[li];
-                li++;
-            } else {
-                result[i] = right[ri];
-                ri++;
-            }
+        while (left.length || right.length) {
+            result.push(
+                left.length && left[0] <= (right[0] || Number.MAX_VALUE) ?
+                left.shift() :
+                right.shift());
         }
 
         return result;

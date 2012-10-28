@@ -1,8 +1,6 @@
-// Sample Testacular configuration file, that contain pretty much all the available options
-// It's used for running client tests on Travis (http://travis-ci.org/#!/vojtajina/testacular)
-// Most of the options can be overriden by cli arguments (see testacular --help)
-
-
+/**
+ * @fileoverview Testacular configuration file.
+ */
 
 // base path, that will be used to resolve files and exclude
 basePath = '';
